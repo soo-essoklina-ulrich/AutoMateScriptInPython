@@ -20,8 +20,6 @@ def clickinposictionactuel(click, interval):
         time.sleep(interval)
 
 
-
-
 # Position du bouton sur l'écran de l'ordinateur
 button_x = 1640  # Remplacez par la position x du bouton
 button_y = 575  # Remplacez par la position y du bouton
@@ -30,7 +28,6 @@ button_y = 575  # Remplacez par la position y du bouton
 num_clicks = 3010
 # convert num_click to int
 num_clicks = int(num_clicks)
-
 click_interval = 0.01
 
 # Appel de la fonction pour cliquer
